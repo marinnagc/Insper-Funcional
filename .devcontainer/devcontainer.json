@@ -10,9 +10,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
       "extensions": [
-        "justusadam.language-haskell",
-        "gitlens.gitlens",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "haskell.haskell"
       ]
     }
   },
