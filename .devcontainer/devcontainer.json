@@ -1,20 +1,15 @@
 {
-  "name": "Haskell DevContainer",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "extensions": [
-        "esbenp.prettier-vscode",
-        "haskell.haskell"
-      ]
-    }
-  },
-  "forwardPorts": [],
-  "remoteUser": "vscode"
+    "name": "Haskell DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "haskell.haskell"
+            ]
+        }
+    },
+    "forwardPorts": [],
+    "remoteUser": "vscode"
 }
