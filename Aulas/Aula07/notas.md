@@ -10,3 +10,9 @@
 ```bash
 dotnet new classlib --language F# -o Greet
 ```
+
+## Adicionando o projeto na solution
+
+```bash
+dotnet solution add Greet
+```
