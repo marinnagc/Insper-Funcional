@@ -41,3 +41,21 @@ dotnet add reference ../Greet
 cd ..
 dotnet solution add Main
 ```
+
+## Resumo: criando a solution completa
+
+```bash
+dotnet new solution
+dotnet new classlib --language F# -o Greet
+dotnet new console --language F# -o Main
+dotnet new xunit --language F# -o Greet.Tests
+dotnet solution add Main
+dotnet solution add Greet
+dotnet solution add Greet.Tests
+cd Main
+dotnet add reference ../Greet
+cd ..
+cd Greet.Tests
+dotnet add reference ../Greet
+cd ..
+```
