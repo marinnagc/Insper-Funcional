@@ -34,7 +34,7 @@ cd ..
 
 ## Criando um projeto de programa executável com dependência de Greet
 
-```
+```bash
 dotnet new console --language F# -o Main
 cd Main
 dotnet add reference ../Greet
